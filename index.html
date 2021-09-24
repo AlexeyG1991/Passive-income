@@ -11,8 +11,20 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
-<body>
-    <div class="wrapper">
+<body onload="myFunction()">
+
+    <div id="loader">
+        <div class="loader">
+            <div class="cssload-thecube">
+                <div class="cssload-cube cssload-c1"></div>
+                <div class="cssload-cube cssload-c2"></div>
+                <div class="cssload-cube cssload-c4"></div>
+                <div class="cssload-cube cssload-c3"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myDiv" class="wrapper animate-bottom">
         <header class="header">
             <meta property="og:image" content="img/income.png">
             <img src="img/building.jpg" alt="building">
