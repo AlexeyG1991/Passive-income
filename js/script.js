@@ -1,3 +1,14 @@
+// -----------loader------------
+let myVar;
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+}
+
+// -------------Date---------------
 let endDate = new Date("Sep 24, 2022 12:00:00").getTime();
 let timer = setInterval(function () {
     let now = new Date().getTime();
@@ -29,7 +40,7 @@ let timer = setInterval(function () {
 
 }, 1000);
 
-
+// --------------tabs--------------
 const tabLinks = document.querySelectorAll(".tabs a");
 const tabPanels = document.querySelectorAll(".tabs-panel");
 
