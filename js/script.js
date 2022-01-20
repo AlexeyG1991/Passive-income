@@ -22,16 +22,16 @@ let timer = setInterval(function () {
         let secs = Math.floor((t % (1000 * 60)) / 1000);
 
         document.getElementById("timer-days").innerHTML = ("0" + days).slice(-3) +
-            "<span class='label'>DAY(S)</span>";
+            "<span class='label'>ДНЕЙ</span>";
 
         document.getElementById("timer-hours").innerHTML = ("0" + hours).slice(-2) +
-            "<span class='label'>HOUR(S)</span>";
+            "<span class='label'>ЧАСОВ</span>";
 
         document.getElementById("timer-mins").innerHTML = ("0" + mins).slice(-2) +
-            "<span class='label'>MINUTE(S)</span>";
+            "<span class='label'>МИНУТ</span>";
 
         document.getElementById("timer-secs").innerHTML = ("0" + secs).slice(-2) +
-            "<span class='label'>SECOND(S)</span>";
+            "<span class='label'>СЕКУНД</span>";
 
     } else {
         document.getElementById("timer").innerHTML = "Обратный отсчет окончен!";
