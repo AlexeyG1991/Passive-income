@@ -9,7 +9,7 @@ function showPage() {
 }
 
 // -------------Date---------------
-let endDate = new Date("Sep 24, 2023 12:00:00").getTime();
+let endDate = new Date("Sep 24, 2024 12:00:00").getTime();
 let timer = setInterval(function () {
     let now = new Date().getTime();
     let t = endDate - now;
